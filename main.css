@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div > a{
+    color:black;
+    text-decoration: none;
+}
+
+.welcome{
+    width: 100%;
+    height: 100%;
+}
+
+.headline{
+    margin-top: 15px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.headline__catagory{
+    line-height: 40px;
+    width: 700px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.headline__catagory__1{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+}
+.headline__catagory__2{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+}
+.headline__catagory__3{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+}
+.headline__catagory__4{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+}
+.headline__catagory__5{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+}
+.headline__catagory__6{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+}
+.headline__catagory__7{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+}
+
+.headline__sideMenu {
+    line-height: 40px;
+    width: 300px;
+    height: 40px;
+    margin: 0 20px 0 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.wrapper {
+    height: 650px;
+    background-color:  orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper__mainMenu { 
+    width: 80%;
+    height: 500px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.wrappercustomersearch {
+
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrappercustomersearch__text { 
+    border: 0px;
+    width: 110px;
+    height: 30px;
+
+}
+.wrappercustomersearch__icon {
+
+    position: relative;
+    width: 20px;
+    height: 20px;
+
+}
+
+.headline__sideMenu__cart {
+    line-height: 60px;
+}
+
+.wrapper__mainMenu__uiBox {
+
+    width: 200px;
+    height: 150px;
+    background-color: blueviolet;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mainMenu__uiBox__login {
+
+    height: 40px;
+    background-color: cadetblue;
+}
+.mainMenu__uiBox__signUp {
+
+    height: 40px;
+    background-color: cadetblue;
+}
+
+.hnf-footer {
+    background-color: rgb(var(--colour-neutral-2, 245, 245, 245));
+    padding: 3rem 0 3rem 0;
+    text-align: center;
+}

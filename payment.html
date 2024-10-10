@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="payment.css">
+    </head>
+
+    <body>
+        <h1>결제</h1>
+        <form>
+            <fieldset>
+                <legend><h3>배송 주소</h3></legend>
+                <label>주소</label>
+                <br>
+                <input type="text" id="address" size="50" required  placeholder="도로명 주소 입력">
+                <br><br>
+                <label>상세 주소</label>
+                <br>
+                <input type="text" id="address2" size="50">
+            </fieldset>
+            <fieldset>
+                <legend><h3>배송자 정보</h3></legend>
+                <label>성 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    이름</label>
+                <br>
+                <input type="text" id="first_name" size="22" maxlength="10" required>
+                <input type="text" id="second_name" size="22" maxlength="10" required>
+                <br><br>
+                <label>전화번호</label>
+                <br>
+                <input type="tel" id="phone" size="50" maxlength="11" required placeholder="숫자만 입력 (예: 01012345678)">
+                <br><br>
+                <label>이메일</label>
+                <br>
+                <input type="email" id="mail" size="50" maxlength="11" required>
+            </fieldset>
+            <fieldset>
+                <legend><h3>카드 정보</h3></legend>
+                <label>카드 번호</label>
+                <br>
+                <input type="text" id="num1" size="4" maxlength="4" required>-<input type="password" id="num2" size="4" maxlength="4" required>-<input type="text" id="num3" size="4" maxlength="4" required>-<input type="password" id="num4" size="4" maxlength="4" required>
+                <br><br>
+                <label>cvc</label>
+                <br>
+                <input type="password" id="cvc" size="10" maxlength="3" placeholder="뒤 3자리 입력" required>
+            </fieldset>
+            <br><br>
+            <input type="submit" id="submit" value="&#8361;64,900 결제하기" style="width: 500px; height: 130px; font-size:20px; cursor:pointer; color:white; background-color: rgb(44, 85, 219); border-radius:20px;">
+        </form>
+    </body>
+</html>

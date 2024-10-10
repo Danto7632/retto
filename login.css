@@ -1,0 +1,20 @@
+span{color: gray; font-size: 12px;}
+form{text-align: center; margin-top: 250px;}
+input, select{ width: 600px; height: 30px;}
+.btnc{background-color: black; color: white; border: solid black; height: 35px;}
+
+.idm{margin-bottom: 10px;}
+.pssm{margin-bottom: 45px;}
+
+.ids{margin-left: -585px;}
+.pss{margin-left: -535px;}
+.register{
+    position: relative;
+    left: 260;
+    top: 10;
+    font-size: 15px;
+}
+a{text-decoration: none;}
+input:hover {
+    cursor: pointer;
+}

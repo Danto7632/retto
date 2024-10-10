@@ -1,0 +1,24 @@
+h1 {
+    margin-top:40px;
+    text-align:center;
+
+}
+
+form {
+    width:800px;
+    height:250px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+legend {
+    text-align:center;
+}
+
+label {
+    text-align:center;
+}
+
+#submit {
+   margin-left:150px;
+}

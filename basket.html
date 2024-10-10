@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="basket.css">
+    </head>
+
+    <body>
+        <h1>장바구니</h1>
+        <section id="top">
+            <div id="item">
+                <img id="img" src="chair1.avif">
+            </div>
+            <div id="item">
+                <p id="name">ELDBERget 엘드베리어트 / MALSKÄR 말셰르</p>
+                <p id="sub">회전의자, 베이지/화이트</p>
+                <label><input type="radio" id="color1" name="color" value="베이지" checked>베이지</label>
+                <label><input type="radio" name="color" value="화이트">화이트</label><br>
+                <input id="spin" type="number"  min="0" max="10" value="1">
+                <p id="money">&#8361;64,900</p>
+            </div>
+        </section>
+    <br>
+    <section id="under">
+        <div id="result">
+        <h2>총 주문금액</h2>
+            <p class="value" style="font-size:25pt;">&#8361;64,900</p>
+            <hr>
+            <br>
+            <a id="btn" href="payment.html"><input type="button" value="결제하기" 
+                style="width: 500px; height: 150px; font-size:20pt; cursor:pointer; color:white; background-color: rgb(44, 85, 219); border-radius:20px;">
+            </a>
+        </div>
+    </section>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+form{text-align: center; margin-top: 40px;}
+            
+            .mypage{border: 2px solid #d4d1d1; padding: 50px 0px 50px 0px; width: 800px; margin: auto; margin-bottom: 60px;}
+            
+            .mpx{display: inline-block; width: 400px; height: 10px;}
+            .mpy{display:inline-block; padding: 10px 0px 10px 0px; font-weight: bold; }
+            .mpxa{text-align: left; margin-bottom: 20px; font-weight: bold;}
+            .mpxb{border: 1px solid gray; width: 80px; margin-bottom: 10px; font-size: 11px;}
+            
+            .mya{display:inline-block; padding: 0px 30px 0px 30px; }
+            .myb{display:inline-block; padding: 0px 30px 0px 30px; border-width: 0px 2px 0px 2px; border-style: solid; border-color: #d4d1d1;}
+            .myc{display:inline-block; padding: 0px 30px 0px 30px;}
+            .span{font-size: 20px; font-family: sans-serif; color: black;}
+            .pre{margin-right: 400px; color: gray; font-weight: bold; font-size: 12px; margin-top: 60px;}
+            .span1{color: gray; font-size: 13px;}
+            .pre1{margin-right: 420px; color: gray; font-weight: bold; font-size: 12px; margin-top: 60px;}
+
+            /* 진행 중인 주문 css*/
+            
+            /* subtitle word*/
+            .bpre{font-size: 12px; color: #77777793; text-align: center; position: relative; right: 218px; font-weight: bold; font-family: sans-serif;}
+            .bspan{font: normal bold 20px sans-serif; color: black}
+            /* B box */
+            .border{border-width: 3px 2px 2px 2px; border-style: solid; border-color: #d4d1d1; width: 800px; margin: auto; padding: 10px 0px 20px 0px;}
+            /* 주문 과정 */
+            .bprocess{border-width: 0 3px 0px 0; border-style: solid; border-color: #d4d1d1; padding: 20px 10px 0px 10px; display: inline-block;}
+            .bp1{padding: 10px 0px 10px 0px; display: inline-block; position: relative; top: -20px;}
+            /* word css */
+            .bp1s1{position: relative; left: 3px;}
+            .bp2s1{position: relative; left: 2px;}
+            .bp3s1{position: relative; right: -4px;}
+            .bp4s1{position: relative; left: 4px;}
+            .bp5s1{position: relative; left: 3px;}
+            .bp6s1{position: relative; left: 2px;}
+            /* 0 css */
+            .bp1s2{position: relative; top: 35px; left: -32px; color: white; font-weight: bold;}
+            .bp2s2{position: relative; top: 35px; left: -34px; color: white; font-weight: bold;}                       
+            .bp3s2{position: relative; top: 35px; left: -44px; color: white; font-weight: bold;}                        
+            .bp4s2{position: relative; top: 35px; left: -28px; color: white; font-weight: bold;}                       
+            .bp5s2{position: relative; top: 35px; left: -35px; color: white; font-weight: bold;}                       
+            .bp6s2{position: relative; top: 35px; left: -34px; color: white; font-weight: bold;}
+            /* arrow images css */
+            .bpimg1{position: relative; top: -35px;}
+            /* order, cancel, take back css */
+            .boct{padding: 0px 1px 0px 1px; display: inline-block; position: relative; left: 6px;}
+            .bunder{border-width: 0px 0px 1px 0px; border-style: dotted; border-color: #d4d1d1; padding: 1px 0px 1px 0px;}
+            .bword{display: inline-block; padding: 12px 10px 3px 0px; margin-right: 50px;}
+            .bcount{display: inline-block; padding: 12px 5px 3px 0px;}
+
+            /* 최근 주문 정보 css */
+
+            /* C box */
+            .cinfo{margin-top: 60px;}
+            /* subtitle word */
+            .csub{position: relative; right: 230px; margin-bottom: 10px;}
+            .cspan1{font: normal bold 20px sans-serif; color: black;}
+            .cspan2{font-size: 12px; color: #77777793; position: relative; left: 6px; font-weight: bold;}
+            /*c div block*/
+            .cblock{display: inline-block;}
+            .cp1{font-size: 12px; color: gray; background-color: #e2e2e293; border-width: 3px 0 0 0; border-style: solid; border-color: #acacac; width: 800px; margin: auto; padding: 10px 0 10px 0; font-weight: bold;}
+            .cp1div{display: inline-block; margin-right: 110px;}
+            .cp1div2{display: inline-block; margin-right: 80px;}
+            .cp2{border-width: 2px 0 0 0; border-style: solid; border-color: #c2c2c293; width: 800px; margin: auto;}

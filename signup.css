@@ -1,0 +1,26 @@
+span{color: gray; font-size: 12px;}
+form{text-align: center; margin-top: 50px;}
+input, select{ width: 450px; height: 30px;}
+.btnc{background-color: black; color: white; border: solid black;}
+input::placeholder{font-size: 11px;}
+
+.idm{margin-bottom: 35px;}
+.pssm{margin-bottom: 15px;}
+.cpssm{margin-bottom: 15px;}
+.nickm{margin-bottom: 15px;}
+.addm{margin-bottom: 15px; color: gray; font-size: 11px;}
+.addlm{margin-bottom: 5px;}
+.addl2m{margin-bottom: 15px;}
+.mobm{margin-bottom: 15px;}
+.mailm{margin-bottom: 30px;}
+
+.ids{margin-left: -435px;}
+.pss{margin-left: -400px;}
+.cpss{margin-left: -350px;}
+.nicks{margin-left: -395px;}
+.adds{margin-left: -405px;}
+.mobs{margin-left: -372px;}
+.mails{margin-left: -420px;}
+input:hover {
+    cursor: pointer;
+}
